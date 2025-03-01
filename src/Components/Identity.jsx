@@ -6,7 +6,7 @@ import { IoLinkSharp } from "react-icons/io5";
 
 const Identity = () => {
 
-    const pdfurl = ""
+    const pdfUrl = "https://github.com/akavnsolutechllp/business-development-executive/AKAVNBROCHURE.pdf"
 
   return (
     <div className='h-auto w-full flex flex-col justify-center items-center gap-2'>
@@ -24,7 +24,10 @@ const Identity = () => {
             <a href=""><FaWhatsapp /></a>
         </div>
         <div className="h-auto w-full flex justify-center items-center gap-2 mt-4 px-2">
-            <a className='bg-white/20 border border-white text-white h-[6vh] w-[60%] flex justify-center items-center rounded-lg'>Download Brochure</a>
+            <a 
+            href={pdfUrl} 
+            download="AKAVN BROCHURE.PDF"
+            className='bg-white/20 border border-white text-white h-[6vh] w-[60%] flex justify-center items-center rounded-lg'>Download Brochure</a>
             <a className='bg-white/20 border border-white text-white h-[6vh] w-[60%] flex justify-center items-center rounded-lg'>Our Services</a>
         </div>
         <div className="h-auto w-full flex flex-col justify-start items-start  px-2 mt-4">
@@ -32,7 +35,7 @@ const Identity = () => {
             <h4 className='text-xl font-semibold text-white'>Location:</h4>
             <a href='https://maps.app.goo.gl/eikSEcxsf77mpq9K6' className='text-white mb-3'>107, First Floor, Shree Ram Akshar Bhavan, Karamsad Rd, Vallabh Vidyanagar, Anand, Gujarat 388120</a>
             <h4 className='text-xl font-semibold text-white'>Call us:</h4>
-            <a href='tel:+916359193636' className='text-xl text-white mb-4'>6359193636</a>
+            <a href='tel:+916359193636' className='text-xl text-white mb-4'>+91 63591 93636</a>
             <h4 className='text-xl font-semibold text-white'>Mail us:</h4>
             <a className='text-lg text-white'>akavnsolutechllp1@gmail.com</a>
         </div>
